@@ -9,7 +9,7 @@ public class Lab1 {
     public static void printArray (double [][] a1){
         for(int i = 0; i < 9; i++) {
             for (int j = 0; j < 20; j++) {
-                System.out.printf("%10.3f", a1[i][j]);
+                System.out.printf("%-9.3f", a1[i][j]);
                 System.out.print(" ");
             }
             System.out.println();
