@@ -1,7 +1,7 @@
 public class Lab1 {
     public static float randomNumber(){
         float random = 0;
-        random = (float) ((Math.random() * 26) - 13);
+        random = (float) ((Math.random() * 27) - 14);
         if (random >= 12)
             random = 12;
         return random;
